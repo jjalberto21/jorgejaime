@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jorge Alberto Jaime Cepeda | IT Leader</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #1f2937;
+      background-color: #f9fafb;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+    header h2 {
+      font-weight: normal;
+      color: #374151;
+    }
+    header p {
+      max-width: 750px;
+      margin: 20px auto;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .primary {
+      background-color: #2563eb;
+      color: white;
+    }
+    .secondary {
+      border: 2px solid #2563eb;
+      color: #2563eb;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    section h3 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 1.6rem;
+    }
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #111827;
+      color: #d1d5db;
+    }
+    footer a {
+      color: #93c5fd;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Jorge Alberto Jaime Cepeda</h1>
+      <h2>IT Leader | Systems Management | Software Solutions</h2>
+      <p>
+        Profesional senior en Tecnologías de la Información con más de 10 años de experiencia liderando iniciativas de
+        desarrollo de software, administración de sistemas e infraestructura tecnológica, alineando la tecnología con
+        los objetivos del negocio.
+      </p>
+      <div class="buttons">
+        <a href="#" class="primary">Descargar CV</a>
+        <a href="#contacto" class="secondary">Contacto</a>
+      </div>
+    </header>
+
+    <section>
+      <h3>Sobre mí</h3>
+      <p>
+        Profesional senior de TI con enfoque estratégico en la gestión de sistemas, desarrollo de soluciones y
+        optimización de procesos de negocio. He liderado equipos y proyectos tecnológicos críticos, combinando visión
+        ejecutiva con conocimiento técnico para generar soluciones eficientes, escalables y seguras.
+      </p>
+    </section>
+
+    <section>
+      <h3>Stack Tecnológico</h3>
+      <div class="stack-grid">
+        <div class="card">
+          <strong>Desarrollo y Datos</strong>
+          <p>C#, .NET Framework, .NET Core, SQL Server, MySQL</p>
+        </div>
+        <div class="card">
+          <strong>Infraestructura y Operación</strong>
+          <p>Windows Server, Redes LAN/WiFi, VPN Corporativa, Continuidad Operativa</p>
+        </div>
+        <div class="card">
+          <strong>Integración y Arquitectura</strong>
+          <p>WebServices (SOAP/REST), Integración de Sistemas, Arquitectura Funcional</p>
+        </div>
+        <div class="card">
+          <strong>Gestión y Liderazgo</strong>
+          <p>Gestión de Proyectos IT, Coordinación de Equipos, Optimización de Recursos</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Proyectos Destacados</h3>
+      <div class="stack-grid">
+        <div class="card">
+          <strong>Sistema de Control de Pedidos</strong>
+          <p>
+            Diseño e implementación de sistema interno que redujo 40% los tiempos de captura, eliminó procesos
+            manuales y mejoró la trazabilidad de la información.
+          </p>
+        </div>
+        <div class="card">
+          <strong>Integración de Sistemas Corporativos</strong>
+          <p>
+            Integración de plataformas internas y externas mediante WebServices, mejorando la continuidad operativa y
+            estandarizando flujos de información.
+          </p>
+        </div>
+        <div class="card">
+          <strong>Infraestructura y Redes Corporativas</strong>
+          <p>
+            Planeación e implementación de infraestructura tecnológica en múltiples sedes, asegurando disponibilidad
+            y estabilidad de servicios críticos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer id="contacto">
+    <p>Contacto</p>
+    <p>
+      📧 <a href="mailto:jjalberto21@gmail.com">jjalberto21@gmail.com</a> | Monterrey, N.L., México
+    </p>
+    <p>
+      <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
